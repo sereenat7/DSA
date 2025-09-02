@@ -1,0 +1,13 @@
+class Solution {
+    public int majorityElement(int[] nums) {
+        int i=1;
+        int maj=nums[0];
+        while(i>nums.length){
+            if(nums[i-1]>nums[i]){
+                maj=nums[i-1];
+
+            }
+        }
+        return maj;
+    }
+}
