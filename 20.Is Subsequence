@@ -9,9 +9,9 @@ class Solution {
             if(s.charAt(i)==t.charAt(j)){
                 i++;
             }
-            else{
+            
                 j++;
-            }
+            
              }
         }
         if(m==i){
